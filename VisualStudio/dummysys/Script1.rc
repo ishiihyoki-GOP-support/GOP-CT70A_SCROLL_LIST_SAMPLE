@@ -1,0 +1,129 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+#include <windows.h>
+#define IDC_STATIC -1
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 100, 100, 231, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "GOPV3仮想ﾎｽﾄ"
+FONT 9, "ＭＳ ゴシック", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "閉じる",IDCLOSE,190,7,34,14
+    PUSHBUTTON      "BT0",IDC_BT0,73,7,22,23
+    PUSHBUTTON      "BT1",IDC_BT1,103,7,22,23
+    PUSHBUTTON      "BT2",IDC_BT2,133,7,22,23
+    PUSHBUTTON      "BT3",IDC_BT3,163,7,22,23
+    RADIOBUTTON     "LP0",IDC_LP0,71,33,25,14,BS_FLAT | WS_GROUP
+    RADIOBUTTON     "LP1",IDC_LP1,101,33,25,14,BS_FLAT | WS_GROUP
+    RADIOBUTTON     "LP2",IDC_LP2,131,33,25,14,BS_FLAT | WS_GROUP
+    RADIOBUTTON     "LP3",IDC_LP3,161,33,25,14,BS_FLAT | WS_GROUP
+    EDITTEXT        IDC_CT0,87,67,34,12,ES_READONLY,WS_EX_RIGHT
+    LTEXT           "CT0",IDC_STATIC,73,68,13,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_CT1,140,67,34,12,ES_READONLY,WS_EX_RIGHT
+    LTEXT           "CT1",IDC_STATIC,126,68,13,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",IDC_SLIDER0,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,72,49,134,17
+    CONTROL         "Progress1",IDC_LEVEL0,"msctls_progress32",WS_BORDER,73,
+                    86,133,10
+    EDITTEXT        IDC_INFO,69,105,155,15,ES_AUTOHSCROLL
+    LTEXT           "ﾃﾞｼﾞﾀﾙ入力",IDC_STATIC,9,13,50,11,SS_CENTERIMAGE
+    LTEXT           "ﾃﾞｼﾞﾀﾙ出力",IDC_STATIC,9,33,50,11,SS_CENTERIMAGE
+    LTEXT           "ｱﾅﾛｸﾞ表示(数値)",IDC_STATIC,9,68,62,11,SS_CENTERIMAGE
+    LTEXT           "ｱﾅﾛｸﾞ入力",IDC_STATIC,9,51,50,11,SS_CENTERIMAGE
+    LTEXT           "ｱﾅﾛｸﾞ表示(ﾒｰﾀ-)",IDC_STATIC,9,85,62,11,SS_CENTERIMAGE
+    LTEXT           "情報表示",IDC_STATIC,9,107,50,11,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 9
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
